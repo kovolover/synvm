@@ -1,9 +1,10 @@
 name: Cl
 
-on: [push, workflow_dispatch]
-inputs:
+on:
+  workflow_dispatch:
+    inputs:
       tokenngrok:
-        description: 'Token Ngrok'
+        description: 'TOKEN'
         required: true
 
 jobs:
